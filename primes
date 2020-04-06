@@ -1,0 +1,16 @@
+#returns a list of the first n prime numbers
+
+def primes(n):
+  prime_num = []
+  count = 0
+  
+  while count <= n:
+    for num in range(2,):
+      for i in range(2, num):
+        if (num % i) != 0:
+          prime_num.append(num[i])
+          count += 1
+  
+  print prime_num
+  
+primes(5)
